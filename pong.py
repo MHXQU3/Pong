@@ -46,8 +46,8 @@ game_mode = None  # "AI" or "2P"
 ai_difficulty = None  # "Easy", "Medium", "Hard"
 
 # Sounds
-paddle_hit_sound = pygame.mixer.Sound(r"C:\Users\Razer\Downloads\paddle_hit.mp3")
-score_sound = pygame.mixer.Sound(r"C:\Users\Razer\Downloads\score.mp3")
+paddle_hit_sound = pygame.mixer.Sound(r"paddle_hit.mp3")
+score_sound = pygame.mixer.Sound(r"score.mp3")
 
 # Functions
 def draw():
