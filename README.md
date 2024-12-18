@@ -50,6 +50,31 @@ python pong_game.py
 - **AI Behavior**: Adjusts the AI paddle movement based on the difficulty level (Easy, Medium, or Hard).
 - **Winner Display**: Displays the winner of the series and prompts the user to play again.
 
+## Skills Demonstrated:
+- Game Development with Pygame:
+  - Handling basic game loops, sprite rendering, and collision detection.
+  - Implementing physics for ball movement and paddle collisions.
+  - Creating a playable game using a graphical interface.
+
+- Artificial Intelligence (AI): 
+   - Implementing AI with varying difficulty levels based on reaction time and paddle speed.
+   - Adapting AI behavior based on randomness and the distance between the ball and paddle.
+
+- Game Design:
+  - Designing the logic to handle scoring, reset conditions, and the concept of series.
+  - Adding features such as difficulty levels and a re-playable series mode.
+
+- User Input Handling:
+  - Reading user input from the keyboard to control the paddles in both 2-player and AI modes.
+  - Allowing the user to restart or quit the game via the "Y" and "N" options after a series ends.
+
+- Sound Integration:
+  - Incorporating sound effects for paddle hits and scoring events to enhance the user experience.
+
+- State Management:
+  - Managing game state transitions (e.g., from playing to game over, displaying winner, resetting scores).
+
+
 ## License
 This project is licensed under the MIT License.
 
